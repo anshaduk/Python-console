@@ -72,3 +72,28 @@ bike_copy=dict(bike)
 bike_copy['model']='bmw'
 print(bike_copy)
 print(bike)
+
+
+#Nested dictionaries
+myfamily={
+    'child1':{
+        'name':'Ram',
+        'age':25
+    },
+    'child2':{
+        'name':'kumar',
+        'age':30
+    }
+}
+
+print(myfamily)
+print(myfamily['child2']['name'])
+
+x=('key1','key2','key3')
+y=0
+print(dict.fromkeys(x,y))
+
+car={'brand':'Suzuki','model':'Sports'}
+print(car)
+car.setdefault('year',1991)
+print(car)
