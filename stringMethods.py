@@ -2,7 +2,7 @@
 txt="hello"
 print(txt.capitalize())
 
-#casefold,lower string into lowercase
+#casefold,upper string into lowercase
 txt="HELLO"
 print(txt.casefold())
 
@@ -59,3 +59,19 @@ print(txt.translate(mydict))
 #zfill add 0 at the begning of the string with reaches the specified length
 txt='hello';
 print(txt.zfill(10))
+
+#strip() method remove white space from starting and ending
+x=" AHelloA"
+print(x.strip('A'))
+
+print((" Hello. ").strip('. '))
+
+str='I am Anshad.,. '
+print(str.lstrip('I am'))
+print(str.rstrip('I am.'))
+
+str=' My name Anshad '
+print(str.rstrip('my '))
+
+#rsplit() used to right split
+print('Hello! I am Anshad'.rstrip())
