@@ -1,0 +1,13 @@
+f1=open('xyz.txt','w')
+lists=['welcome\n','to\n','python\n','programming']
+f1.writelines(lists)
+f1.close()
+f1=open('xyz.txt','r')
+print(f1.readlines())
+f1.close()
+f1=open('xyz.txt','a')
+f1.write("hello")
+f1.close()
+f1=open('xyz.txt','r')
+print(f1.read())
+f1.close()
